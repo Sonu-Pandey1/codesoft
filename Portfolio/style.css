@@ -1,0 +1,305 @@
+
+
+/* caal aengi priynka kuch name se use salary expataction 35 btana hai and current salary 25 */
+
+/* ram ne resume diya hai mujhe  */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* background-color: red; */
+
+}
+
+html{
+    scroll-behavior: smooth;
+  }
+
+
+.heroSectionWrapper{
+    /* background-color: red; */
+    /* background-image: url("	https://preview.colorlib.com/theme/hotell/images/img_1.jpg"); */
+    background: linear-gradient(rgba(0, 0, 0, 0.369),rgba(0, 0, 0, 0.397)),url("https://preview.colorlib.com/theme/hotell/images/img_1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+
+}
+
+.navbarSection{
+    position: sticky;
+    top: 0px;
+    /* background-color: red; */
+    z-index: 10;
+    background-color: transparent;
+    /* box-shadow: 1px 1px 12px 1px rgb(7, 95, 76); */
+}
+
+.navbarSection{
+    color: white;
+}
+
+.navv{
+   
+}
+
+.navv a{
+    color: white;
+}
+#navbarSupportedContent  li a{
+    /* background-color: red; */
+    color: white !important;
+}
+
+.active{
+    color: orange;
+}
+
+.herosection{
+    height: 100vh;
+    /* width: 100vw; */
+    width: auto;
+
+    position: relative;
+    top: 12rem;
+    text-align: center;
+    /* background-color: red; */
+    color: rgb(242, 221, 221);
+}
+
+.herosection .btn{
+    margin-top: 40px;
+
+}
+.herosection h1{
+    font-size: 3em;
+    font-weight: bolder;
+    /* font-style: italic; */
+    margin: unset;
+
+}
+
+
+/*  */
+
+.serviceSection{
+    /* background-color: red; */
+    height: 100%;
+    width: 100%;
+    /* margin-bottom: 10vh; */
+    padding: 20px;
+}
+
+.title{
+    color: rgb(0, 145, 124);
+}
+
+.row .serviceItem{
+    cursor: pointer;
+    padding: 20px;
+    /* background-color: red; */
+    margin-bottom: 5vh;
+}
+
+.row .serviceItem:hover{
+    background-color: #27dec06f;
+    transform: translateY(-30px);
+    transition: all 1s ease-in-out;
+    border-radius: 20px;
+
+}
+
+/*  */
+
+.aboutSection{
+    /* background-color: aqua; */
+    /* height: 30vh; */
+
+}
+
+.aboutLeftDiv {
+    /* overflow: hidden; */
+    height: 400px;
+    /* background-color: #27DEBE; */
+    
+    padding: 0px !important;
+    
+}
+.aboutRightDiv{
+    /* text-align: center; */
+    height: 400px;
+    
+    /* background-color: red; */
+}
+.aboutRightDiv{  
+    text-align: center;
+    /* padding-left: 150px !important ; */
+  
+
+}
+
+
+.aboutLeftDiv img {
+  height: 100%;
+  width: 100%;
+  /* margin-bottom: 20px; */
+  overflow: hidden;
+  margin: 12px;
+    
+}
+
+/*  */
+
+
+
+.container{
+    margin-bottom: -20px;
+    position: relative;
+}
+
+h2{
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.titleColor{
+    color:#27DEBE;
+
+}
+
+
+.AboutMeWrapper{
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.aboutMe{
+    height: 12rem;
+    /* // width:32%; */
+    background-color: white;
+    box-shadow: 1px 1px 20px 2px rgb(208, 208, 208);
+    text-align: center;
+    padding-top: 20px;
+}
+
+h3{
+    font-size: large;
+}
+
+
+
+.iconWrapper{
+    transform: translate(300%,0%);
+    height: 50px;
+    width: 50px;
+    background-color:#0A7074;
+    border-radius: 50%;
+    margin: 15px 0px;
+}
+i{
+    color: white;
+    transform: translate(0,70%);
+    font-size: 20px;
+}
+
+.form{
+    /* // background-color:white; */
+    height: auto;
+    width: auto;
+    margin-top: -30px;
+}
+.boxx{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 15px 0px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #27DEBE;
+}
+
+.row{
+    height: 100%;
+    width: 100%;
+}
+
+
+.mapwrapper{
+    padding: 15px 15px;
+
+}
+.iframe{
+    height: 100%;
+    width: 100%;
+    border: 3px solid #ff7700;
+    
+}
+
+/* footer */
+
+.footerh1 span{
+    color: #27DEBE;
+    
+
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #27DEBE; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #D9F0EB; 
+  }
+  
+
+@media(max-width: 991px) {
+
+    .aboutRightDiv{
+        margin-top: 40px !important;
+    }
+
+    .AboutMeWrappe .aboutMe{
+        padding-top: 20px;
+         margin-top: 20px ;
+
+    }
+
+    .AboutMeWrappe.iconWrapper{
+
+        transform: translate(400%,0%);
+    }
+
+    .herosection h1{
+        font-size: 2em;
+        font-weight: bolder;
+        /* font-style: italic; */
+        margin: unset;
+    
+    }
+   
+
+   
+
+
+
+}
+
+
+
